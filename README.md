@@ -1,11 +1,10 @@
 # Firefox Themes
-For use with Australis
+
 
 Flat_Blue:
 =============
 
-- [Flat_Blut Theme](http://bokagha.github.io/Startpages/blue 2.0/startpage.html)
-/  [Code]() 
+[Code](https://github.com/Bokagha/Firefox_Themes/blob/master/Firefox-CSS) 
 
 Preview: 
 ![Alt text](/Previews/firefox-theme-preview.png)
