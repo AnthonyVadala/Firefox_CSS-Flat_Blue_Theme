@@ -8,4 +8,4 @@ Flat_Blue:
 /  [Code]() 
 
 Preview: 
-![Alt text](/Preview/firefox-theme-preview.png)
+![Alt text](/Previews/firefox-theme-preview.png)
