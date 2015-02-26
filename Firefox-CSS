@@ -295,6 +295,13 @@ tab {
   #titlebar { margin-top:0; }
 }
 
+/* REMOVES TAB SCROLLING ARROWS */
+tabbrowser toolbarbutton[class^="scrollbutton"],
+#TabsToolbar toolbarbutton[class^="scrollbutton"]
+{
+    display: none !important;
+}
+
 /* --------------TAB TEXT CENTERED----------------------- */
 .tab-text{text-align: center !important;}
 
@@ -330,6 +337,14 @@ tab {
 /* This completely removes all scrollbars in firefox */
 scrollbar {
   visibility: collapse !important; 
+}
+
+html { overflow: -moz-scrollbars-none; }
+
+#content browser {
+ margin-right: -14px !important;
+ overflow-y: scroll;
+ overflow-x: hidden;
 }
 
 /* --------------REDUCED BORDERS ON EVERYTHING----------------------- */
