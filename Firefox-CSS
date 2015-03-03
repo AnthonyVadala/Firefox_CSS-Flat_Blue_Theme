@@ -9,8 +9,8 @@
 } 
 #urlbar-container {
         margin-left: -10px !important;
-}*/
-
+}
+*/
 
 .tabbrowser-tabs .tab-icon-image { display: none !important; }
 /* Delete to remove refresh button */ 
@@ -21,7 +21,7 @@
 #urlbar-container {
         margin-left: -10px !important;
 }*/
- 
+
 /* Refresh Button Styling */
 #urlbar-stop-button,
 #urlbar-reload-button {
@@ -291,7 +291,7 @@ tab {
 }
 /* Fullscreen margin fix */
 /* CHANGE TO YOUR MONITOR'S MAX WIDTH!*/
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) { 
   #titlebar { margin-top:0; }
 }
 
@@ -321,6 +321,7 @@ tabbrowser toolbarbutton[class^="scrollbutton"],
   width: 10px !important;
 }
 
+
 /* --------------BACK/FORWARD BUTTON STYLING----------------------- */
 /* The removes the circles from the back and forward buttons */
 #back-button,
@@ -334,19 +335,19 @@ tabbrowser toolbarbutton[class^="scrollbutton"],
 }
 
 /* --------------SCROLLBAR STYLING----------------------- */
-/* This completely removes all scrollbars in firefox */
-scrollbar {
-  visibility: collapse !important; 
-}
+/* This completely removes all scrollbars in firefox*/ 
+/* AGENT_SHEET */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+scrollbar {visibility:collapse !important; }
 
 html { overflow: -moz-scrollbars-none; }
 
 #content browser {
- margin-right: -14px !important;
+ margin-right: -15px !important;
  overflow-y: scroll;
  overflow-x: hidden;
+ margin-bottom: 0px !important;
 }
-
 /* --------------REDUCED BORDERS ON EVERYTHING----------------------- */
 #main-window:not([chromehidden*="toolbar"])[sizemode="normal"]{
 margin-top:-1px!important;
@@ -575,8 +576,8 @@ select > input {
 .tabbrowser-tab[titlechanged] {}
 @keyframes newpost {
   25% {  transform: scale(1.1);   }
-}
-/* NEW TAB SETTINGS *//*
+}*/
+/* NEW TAB SETTINGS */ /*
 .tabs-newtab-button {
         width: 38px !important;
   float: right !important;
@@ -602,4 +603,4 @@ select > input {
   background-image: -moz-linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.5) 50%) !important;
   color: #111111 !important;
 } 
-*/
+/*
