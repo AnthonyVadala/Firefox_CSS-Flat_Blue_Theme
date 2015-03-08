@@ -444,6 +444,7 @@ toolbar#addon-bar #addonbar-closebutton,
 #appmenu-button,
 #appmenu-toolbar-button,
 #lpt_lastpass-compact-btn /*Removed lastpass icon from toolbar*/ {
+  /* Error in parsing value for 'display' */
   display: hidden !important;
 }
  
@@ -603,4 +604,4 @@ select > input {
   background-image: -moz-linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.5) 50%) !important;
   color: #111111 !important;
 } 
-/*
+*/
